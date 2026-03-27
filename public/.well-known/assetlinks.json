@@ -2,9 +2,9 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "id.biz.andifarel.quran",
+    "package_name": "id.biz.andifarel.quran.twa",
     "sha256_cert_fingerprints": [
-      "REPLACE_WITH_YOUR_SHA256_FINGERPRINT"
+      "90:27:92:34:EE:33:0D:5E:81:CA:A5:0A:24:E8:45:DA:0E:DD:65:E8:C4:F1:3E:2A:7E:F6:CB:5A:CB:15:C3:57"
     ]
   }
 }]
