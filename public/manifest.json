@@ -1,0 +1,58 @@
+{
+  "name": "Quran Digital",
+  "short_name": "Quran",
+  "description": "Baca Al-Quran digital dengan terjemahan Bahasa Indonesia. Fitur bookmark, last read, dan offline mode.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#16ebbb",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "id",
+  "categories": ["education", "books", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Surah Yasin",
+      "short_name": "Yasin",
+      "description": "Buka Surah Yasin",
+      "url": "/36",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ayat Kursi",
+      "short_name": "Ayat Kursi",
+      "description": "Buka Ayat Kursi",
+      "url": "/2?ayat=255",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Bookmark",
+      "short_name": "Bookmark",
+      "description": "Lihat bookmark",
+      "url": "/bookmarks",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

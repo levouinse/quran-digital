@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow API routes
+Disallow: /api/
+
+# Disallow private pages
+Disallow: /bookmarks
+Disallow: /last-read
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://quran.andifarel.biz.id/sitemap.xml
