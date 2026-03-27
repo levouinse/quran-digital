@@ -18,6 +18,13 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
+// Handle service worker updates
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
 // Activate event - clean old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
